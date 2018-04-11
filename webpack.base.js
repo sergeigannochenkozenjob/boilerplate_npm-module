@@ -1,5 +1,4 @@
 module.exports = {
-    // run babel on every file
     module: {
         rules: [
             {
@@ -22,8 +21,6 @@ module.exports = {
     },
 
     externals : {
-        underscore: '_',
-        clone: 'clone',
-        deepEqual: 'deep-equal',
+        // underscore: '_',
     }
 };
