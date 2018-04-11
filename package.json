@@ -23,6 +23,7 @@
     "url": "https://github.com/awesome1888/module-name"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
