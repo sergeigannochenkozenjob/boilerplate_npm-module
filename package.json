@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Module description",
   "main": "index.js",
+  "module": "build/client.js",
   "scripts": {
     "build": "npm-run-all --parallel build.*",
     "build.server": "webpack --config webpack.server.js --mode production",
