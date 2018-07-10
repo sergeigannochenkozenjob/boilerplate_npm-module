@@ -21,6 +21,6 @@ module.exports = {
     },
 
     externals : {
-        // underscore: '_',
+        // underscore: 'underscore',
     }
 };
