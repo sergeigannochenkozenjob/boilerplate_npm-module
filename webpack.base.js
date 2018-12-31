@@ -7,13 +7,16 @@ module.exports = {
                 exclude: /node_modules/,
                 options: {
                     presets: [
-                        // 'react', // translate jsx
-                        'stage-0', // async code
-                        ['env', {
+                        // '@babel/react', // translate jsx
+                        // 'stage-0', // async code
+                        ['@babel/env', {
                             targets: {
                                 browsers: ['last 2 versions'],
                             }
                         }]
+                    ],
+                    plugins: [
+                        '@babel/plugin-proposal-object-rest-spread',
                     ]
                 }
             }
@@ -21,6 +24,5 @@ module.exports = {
     },
 
     externals : {
-        // underscore: 'underscore',
     }
 };
