@@ -4,6 +4,9 @@
   "description": "Module description",
   "main": "index.js",
   "module": "build/client.js",
+  "bin": {
+    "module-name": "./build/server.js"
+  },
   "scripts": {
     "build": "npm-run-all --parallel build.*",
     "build.server": "webpack --config webpack.server.js --mode production",

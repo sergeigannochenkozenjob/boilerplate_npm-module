@@ -8,7 +8,6 @@ module.exports = {
                 options: {
                     presets: [
                         // '@babel/react', // translate jsx
-                        // 'stage-0', // async code
                         ['@babel/env', {
                             targets: {
                                 browsers: ['last 2 versions'],

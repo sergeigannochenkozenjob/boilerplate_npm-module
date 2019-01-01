@@ -1,22 +1,14 @@
 # Module name
 
-Hey there ;)
-
 ## Installation
 
 ## Usage
 
-## Build process, just in case if you want one :)
+## Build
 
 ~~~~
 npm install;
-npm run dev.build; # build a developlment version
+npm run build.dev; # build a developlment version
 # or
-npm run build; # build a prodction, minified and uglifyed version
+npm run build.prod; # build a prodction, minified and uglifyed version
 ~~~~
-
-## License
-
-MIT
-
-Enjoy ;)
