@@ -9,11 +9,11 @@
   },
   "scripts": {
     "build": "npm-run-all --parallel build.*",
-    "build.server": "webpack --config webpack.server.js --mode production",
-    "build.client": "webpack --config webpack.client.js --mode production",
+    "build.server": "webpack --config webpack.server.js --mode production --watch",
+    "build.client": "webpack --config webpack.client.js --mode production --watch",
     "dev.build": "npm-run-all --parallel dev.build.*",
-    "dev.build.server": "webpack --config webpack.server.js --mode development",
-    "dev.build.client": "webpack --config webpack.client.js --mode development",
+    "dev.build.server": "webpack --config webpack.server.js --mode development --watch",
+    "dev.build.client": "webpack --config webpack.client.js --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
